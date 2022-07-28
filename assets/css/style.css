@@ -16,6 +16,7 @@ h2 {
 
 html {
   scroll-behavior: smooth;
+  overflow: hidden;
 }
 
 .sm h2, .pj h2, .hb h2 {
