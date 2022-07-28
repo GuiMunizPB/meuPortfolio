@@ -1,2 +1,2 @@
-# meuPortifolio
-Meu Primeiro Portifólio usando HTML + CSS + Js
+# meuPortfólio
+Meu Primeiro Portfólio usando HTML + CSS + Js
