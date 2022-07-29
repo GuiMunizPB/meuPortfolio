@@ -16,7 +16,6 @@ h2 {
 
 html {
   scroll-behavior: smooth;
-  overflow: hidden;
 }
 
 .sm h2, .pj h2, .hb h2 {
@@ -99,7 +98,7 @@ nav {
     }
 
 }
-  
+
 /* ANIMAÇÃO NAVBAR COM TOGGLER */ 
 
 .nav-list.active {
