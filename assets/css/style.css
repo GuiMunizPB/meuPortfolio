@@ -3,6 +3,14 @@
     padding: 0;
 }
 
+html {
+    overflow-x: hidden;
+}
+
+body {
+    overflow-x: hidden;
+}
+
 a, p, h2, span{
     color:azure;
     text-decoration: none;
@@ -70,9 +78,6 @@ nav {
 /* RESPONSIVE NAVBAR COM TOGGLER*/
 
 @media (max-width: 999px) {
-    body {
-      overflow-x: hidden;
-    }
     .nav-list {
       position: absolute;
       top: 10vh;
@@ -155,7 +160,6 @@ nav {
   color: azure;
   margin: 0 auto;
   white-space: nowrap;
-  overflow: hidden;
   text-align: center;
   font-size: 50px;
 }
@@ -239,9 +243,6 @@ nav {
 }
 
 @media (max-width: 1280px) {
-  body {
-    overflow-x: hidden;
-  }
   .inicio .desenho {
     transform: translateX(200%);
   }
