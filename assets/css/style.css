@@ -260,7 +260,7 @@ nav {
     margin-left: 40px;
   }
 
-@media (max-width: 375px) {
+@media (max-width: 415px) {
     .inicio .conteudo-principal {
       margin-left: 60px;
       margin-top: 180px;
@@ -369,7 +369,7 @@ nav {
     font-size: 38px;
   }
 
-@media (max-width: 375px) {
+@media (max-width: 415px) {
     .sm .foto {
       margin-left: 10px;
     }
@@ -462,7 +462,7 @@ nav {
 }
 
 
-@media (max-width: 375px) {
+@media (max-width: 415px) {
   .pj .projetos-feito {
     display: flex;
     flex-direction: column;
@@ -590,7 +590,7 @@ nav {
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 415px) {
   .hb .skill-box {
     height: 60px;
     width: 60px;
@@ -656,7 +656,7 @@ nav {
     }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 415px) {
   .contato-creditos {
     font-size: 12px;
   }
