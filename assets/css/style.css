@@ -383,9 +383,6 @@ nav {
     .sm h2 {
       font-size: 30px;
     }
-    .sm .breve {
-      font-size: 20px;
-    }
 
   }
 
@@ -477,6 +474,9 @@ nav {
   }
   .pj .printpj1, .printpj {
     width: 300px;
+  }
+  .pj p {
+    font-size: 20px;
   }
 }
 
