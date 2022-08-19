@@ -383,6 +383,9 @@ nav {
     .sm h2 {
       font-size: 30px;
     }
+    .sm .breve {
+      font-size: 20px;
+    }
 
   }
 
