@@ -253,11 +253,31 @@ nav {
 @media (max-width: 999px) {
   .inicio .conteudo-principal {
     margin-left: 70px;
-    margin-top: 250px;
+    margin-top: 200px;
   }
   .logo {
     margin-right: 120px;
     margin-left: 40px;
+  }
+
+@media (max-width: 375px) {
+    .inicio .conteudo-principal {
+      margin-left: 60px;
+      margin-top: 180px;
+    }
+    .inicio .descricao {
+      font-size: 20px;
+    }
+    .inicio .type-animation {
+      font-size: 30px;
+    }
+    .logo {
+      margin-right: 100px;
+      margin-left: 30px;
+    }
+    .inico .botao {
+      font-size: 15px;
+    }
   }
 
 }
@@ -349,6 +369,24 @@ nav {
     font-size: 38px;
   }
 
+@media (max-width: 375px) {
+    .sm .foto {
+      margin-left: 10px;
+    }
+    .sm .texto {
+      font-size: 20px;
+      max-width: 300px;
+    }
+    .sm .biografia {
+      margin-left: 0px;
+    }
+    .sm h2 {
+      font-size: 30px;
+    }
+
+  }
+
+
 }
 
 /* PROJETOS */
@@ -422,6 +460,23 @@ nav {
     width: 400px;
   }
 }
+
+
+@media (max-width: 375px) {
+  .pj .projetos-feito {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  .pj .netflix-clone {
+    margin-bottom: 100px;
+  }
+  .pj .printpj1, .printpj {
+    width: 300px;
+  }
+}
+
 
 /* HABILIDADES */
 
@@ -532,6 +587,24 @@ nav {
   }
 }
 
+@media (max-width: 375px) {
+  .hb .skill-box {
+    height: 60px;
+    width: 60px;
+  }
+  .hb .fa-brands {
+    font-size: 40px;
+  }
+  .hb .skills-descricao {
+    gap: 25px;
+  }
+  .hb .container-descricao {
+    max-width: 30%;
+    font-size: 15px;
+  }
+}
+
+
 /* RODAPÉ */
 
 .footer {
@@ -578,4 +651,17 @@ nav {
     .icones .fa-brands {
       font-size: 35px;
     }
+}
+
+@media (max-width: 375px) {
+  .contato-creditos {
+    font-size: 12px;
+  }
+  .icones {
+    display: flex;
+    gap: 30px;
+  }
+  .icones .fa-brands {
+    font-size: 30px;
+  }
 }
